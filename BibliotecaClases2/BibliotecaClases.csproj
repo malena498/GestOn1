@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Clases\Documento.cs" />
     <Compile Include="Clases\Usuario.cs" />
+    <Compile Include="Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
