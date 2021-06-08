@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BibliotecaClases2
+namespace BibliotecaClases2.Clases
 {
-    public class Documento
+   public class Documento
     {
     }
 }

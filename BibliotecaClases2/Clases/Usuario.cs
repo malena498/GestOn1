@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BibliotecaClases2.Clases
 {
-    class Usuario
+    public class Usuario
     {
     }
 }

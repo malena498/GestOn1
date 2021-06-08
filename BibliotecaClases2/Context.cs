@@ -4,11 +4,12 @@ namespace GestOn1
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
-    using BibliotecaClases2;
+    using BibliotecaClases2.Clases;
 
     public partial class Context : DbContext
     {
         public DbSet<Documento> Documentos { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
         public Context()
             : base("name=GestOn")
         {
