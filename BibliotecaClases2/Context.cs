@@ -5,6 +5,7 @@ namespace GestOn1
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
     using BibliotecaClases2.Clases;
+    using System.Data.Entity.ModelConfiguration.Conventions;
 
     public partial class Context : DbContext
     {
@@ -30,11 +31,21 @@ namespace GestOn1
             }
         }
 
+        public Context(String baseDatos) : base(baseDatos) { }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            //modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-            //modelBuilder.Entity<Documento>().HasMany(p => p.detalle).WithMany().Map(mc =>
-            //{}
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            
+        }
+
+        public class Initializer : IDatabaseInitializer<Context>
+        {
+            public void InitializeDatabase(Context context)
+            {
+                context.Database.Delete();
+                context.Database.Create();
+            }
         }
     }
 }
