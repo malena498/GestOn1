@@ -191,9 +191,9 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BibliotecaClases2\BibliotecaClases2.csproj">
+    <ProjectReference Include="..\BibliotecaClases2\BibliotecaClases.csproj">
       <Project>{574e3ae5-c3e7-43e8-814f-2e797e8b7804}</Project>
-      <Name>BibliotecaClases2</Name>
+      <Name>BibliotecaClases</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

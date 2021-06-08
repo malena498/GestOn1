@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.1300
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestOn1", "GestOn1\GestOn1.csproj", "{EB4AB2A8-379A-411F-A86C-A7AD7B4F2299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaClases2", "BibliotecaClases2\BibliotecaClases2.csproj", "{574E3AE5-C3E7-43E8-814F-2E797E8B7804}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaClases", "BibliotecaClases2\BibliotecaClases.csproj", "{574E3AE5-C3E7-43E8-814F-2E797E8B7804}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
